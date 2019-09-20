@@ -3,6 +3,7 @@ def badge_maker(name)
 bages = "Hello, my name is #{name}."
 end
 
+
 def batch_badge_creator(attendees)
   badges_list = []
   attendees.each do |name|
@@ -11,11 +12,9 @@ def batch_badge_creator(attendees)
   return badges_list
 end
 
+
 def assign_rooms
 
-describe '#assign_rooms' do
-
-    # Question 3
 
     it 'should return a list of welcome messages and room assignments' do
       expect(assign_rooms(attendees)).to eq(room_assignments)
