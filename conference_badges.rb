@@ -11,7 +11,7 @@ def batch_badge_creator(attendees)
   return badges_list
 end
 
-def 
+def assign_rooms
 
 describe '#assign_rooms' do
 
