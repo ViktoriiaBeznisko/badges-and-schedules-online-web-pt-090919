@@ -25,10 +25,10 @@ end
 
 
 def printer(attendees)
-  batch_badge_creator.each do [name]
+  batch_badge_creator(attendees).each do [name]
   puts name
 end
-  assign_rooms()ach do [room]
+  assign_rooms(attendees).each do [name]
   puts room
 end
 end
