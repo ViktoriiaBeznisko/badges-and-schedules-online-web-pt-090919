@@ -13,7 +13,7 @@ def batch_badge_creator(attendees)
 end
 
 
-def assign_rooms
+def assign_rooms(attendees)
 
 
     it 'should return a list of welcome messages and room assignments' do
