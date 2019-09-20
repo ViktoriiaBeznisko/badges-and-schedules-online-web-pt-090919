@@ -23,9 +23,4 @@ def assign_rooms(attendees)
   list_of_welcome_messages
 end
 
-    #it 'should return a list of welcome messages and room assignments' do
-      #expect(assign_rooms(attendees)).to eq(room_assignments)
 
-    #it 'should not hard-code the response' do
-     # expect(assign_rooms(["Steve"])).to eq(["Hello, Steve! You'll be assigned to room 1!"])
-   
