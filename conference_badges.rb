@@ -14,11 +14,11 @@ end
 
 
 def assign_rooms(attendees)
-  counter = 1
+  room = 1
   list_of_welcome_messages = []
   attendees.each do |name|
-    list_of_welcome_messages.push("Hello, #{name}! You'll be assigned to room #{counter}!")
-    counter +=1
+    list_of_welcome_messages.push("Hello, #{name}! You'll be assigned to room #{room}!")
+    room +=1
   end
   list_of_welcome_messages
 end
