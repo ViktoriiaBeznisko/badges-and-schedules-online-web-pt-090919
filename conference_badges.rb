@@ -16,7 +16,7 @@ end
 def assign_rooms(attendees)
   list_of_welcome_messages = []
   attendees.each do |room|
-    list_of_welcome_messages.push()
+    list_of_welcome_messages.push("Hello, Edsger! You'll be assigned to room #{room}!")
   end
   return list_of_welcome_messages
 end
