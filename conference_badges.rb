@@ -14,7 +14,11 @@ end
 
 
 def assign_rooms(attendees)
-
+  list_of_welcome_messages = []
+  attendees.each do 
+  end
+return list_of_welcome_messages
+end
 
     it 'should return a list of welcome messages and room assignments' do
       expect(assign_rooms(attendees)).to eq(room_assignments)
